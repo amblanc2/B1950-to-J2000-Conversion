@@ -2,7 +2,7 @@ import math
 import numpy as np
 
 #This script is based on the work done by Keith Burnett on http://www.stargazing.net/kepler/b1950.html, it is a simple recreation of the QBASIC script, albeit a little more janky
- 
+print('Coordinate form for input is HHMMM(n/s)DDMM, for example Orion's Nebula coordinates from Burham's would be 05329s0525, corresponding to 5hrs 32.9min/5deg 25min South')
 Coord=input("Enter coordinate in 'Burnham' format: ")
 
 #Convert to decimal degrees
